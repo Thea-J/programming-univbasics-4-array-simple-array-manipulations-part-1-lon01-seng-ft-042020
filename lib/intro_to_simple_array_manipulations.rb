@@ -16,6 +16,16 @@ def using_pop(array)
   array.pop
 end
 
+
+
+def using_pop(array)
+  array.pop
+end
+
+
+
+
+
 #Remove the 1st element from an array
 #Return the removed element
 def using_shift(array)
