@@ -1,4 +1,4 @@
-require 'pry'
+
 #Adds string to the end of the array
 #Return the updated array
 def using_push(array, string)
@@ -17,7 +17,7 @@ def using_pop(array)
   array.pop
 end
 
-
+require 'pry'
 
 def pop_with_args(array,numb=2)
   i=0
