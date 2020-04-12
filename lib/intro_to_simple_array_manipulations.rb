@@ -24,8 +24,8 @@ def pop_with_args(array,numb=2)
   numb.times do
    removed[i] = array.pop
    i+=1
+   binding.pry
  end
-p removed
 end
 
 
