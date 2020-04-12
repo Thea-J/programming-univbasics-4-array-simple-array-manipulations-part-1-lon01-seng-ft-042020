@@ -17,16 +17,9 @@ def using_pop(array)
   array.pop
 end
 
-require 'pry'
-
+#
 def pop_with_args(array,numb = 2)
-  i=0
-  removed = []
-  while i<numb do
-   removed[i] = array.pop
-   i+=1
- end
- removed
+ array.pop(2)
 end
 
 
