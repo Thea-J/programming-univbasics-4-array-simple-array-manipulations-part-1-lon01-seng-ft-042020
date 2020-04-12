@@ -21,7 +21,8 @@ require 'pry'
 
 def pop_with_args(array,numb = 2)
   i=0
-  numb.times do
+  removed = []
+  while i<numb do
    removed[i] = array.pop
    i+=1
    binding.pry
