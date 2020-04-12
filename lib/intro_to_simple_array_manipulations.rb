@@ -1,3 +1,4 @@
+require 'pry'
 #Adds string to the end of the array
 #Return the updated array
 def using_push(array, string)
@@ -19,8 +20,10 @@ end
 
 
 def pop_with_args(array,numb=2)
+  i=0
   numb.times do
-   array.pop
+   removed[i] = array.pop
+   i+=1
  end
 end
 
