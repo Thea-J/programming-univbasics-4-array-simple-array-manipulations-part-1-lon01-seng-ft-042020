@@ -11,7 +11,7 @@ def using_unshift(array, string)
   array.unshift(string)
 end
 
-#Remove the last element from an array
+#Remove & return the last element from an array
 #Return the removed element
 def using_pop(array)
   array.pop
@@ -22,14 +22,12 @@ def pop_with_args(array,numb = 2)
  array.pop(2)
 end
 
-#Remove the 1st element from an array
-#Return the removed element
+#Remove & return the 1st element from an array
 def using_shift(array)
   array.shift
 end
 
-#Remove the 1st element from an array
-#Return the removed element
+#Remove & return the 1st 2 items from the array
 def using_shift(array)
   array.shift
 end
