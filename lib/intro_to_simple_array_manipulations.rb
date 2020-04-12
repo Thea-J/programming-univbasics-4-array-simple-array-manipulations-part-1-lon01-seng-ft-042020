@@ -12,7 +12,6 @@ def using_unshift(array, string)
 end
 
 #Remove & return the last element from an array
-#Return the removed element
 def using_pop(array)
   array.pop
 end
