@@ -28,3 +28,8 @@ def using_shift(array)
   array.shift
 end
 
+#Remove the 1st element from an array
+#Return the removed element
+def using_shift(array)
+  array.shift
+end
