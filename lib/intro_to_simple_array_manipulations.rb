@@ -18,8 +18,10 @@ end
 
 
 
-def using_pop(array)
-  array.pop
+def pop_with_args(array,numb=2)
+  numb.times do
+   array.pop
+ end
 end
 
 
